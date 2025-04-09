@@ -5,33 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="widt=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
 
-    <title>Dulce Aroma</title>
+    <title>Cafe DulceAroma</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!--sE ENLAZA AL CSS-->
+    <link rel="stylesheet" href="estilos/style.css">
+    <!--Estilos-->
 </head>
 
 <body>
     
     <header>
-        <div class="contenedor">
-            <nav class="menu" >
+        <div class= "contenedor">
+            <nav class="menu">
                 <a href="#" id="btn-acerca-de">Acerca de</a>
                 <a href="#" id="btn-menu">Menu</a>
                 <a href="#" id="btn-galeria">Galeria</a>
                 <a href="#" id="btn-ubicacion">Ubicacion</a>
+
             </nav>
-            <div >
-                <h1>Cafe <span>San Francisco</span></h1>
+            <div class="texto">
+                <h1 class="nombre">Cafe <span>San Francisco</span></h1>
                 <h3>Un refugio del tiempo, donde el corazon se abriga entre cafe y recuerdos.</h3>
             </div>
 
         </div>
     </header>
     <!--Seccion main-->
-    <section>
+    <section class="main">
         <!--Seccion Acerca de-->
-        <section>
-            <div>
-                <div>
-                    <img src="imagenes/acerca de.jpg" alt="Acerca de">
+        <section class="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="imagenes/4.jpg" alt="Acerca de">
                 </div>
                 <article>
                     <h3>Acerca de</h3>
@@ -62,38 +67,38 @@
         </section>
         <!--./fin acerca de-->
         <!-- Inicio del menu-->
-        <section>
-            <div>
+        <section class="menu">
+            <div class="contenedor">
                 <h3 id="platillos">Menu</h3>
-                <div>
-                    <div>
+                <div class="contenedor-menu">
+                    <div class="contenedor-menu2">
                         <article>
-                            <p>De comer</p>
-                            <div>
-                                <p>Arroz con camaron</p>
-                                <p>$8.50</p>
-                                <p> El arroz con camaron tiene los siguientes ingredientes
+                            <p class="categoria">De comer</p>
+                            <div class="platillo">
+                                <p class="nombre">Arroz con camaron</p>
+                                <p class="precio">$8.50</p>
+                                <p class="descripcion"> El arroz con camaron tiene los siguientes ingredientes
                                     arroz, camaron
                                 </p>
                             </div>
-                            <div>
-                                <p>Arroz con camaron</p>
-                                <p>$8.50</p>
-                                <p>El arroz con camaron tienes los siguientes ingredientes
+                            <div class="platillo">
+                                <p class="nombre">Arroz con camaron</p>
+                                <p class="precio">$8.50</p>
+                                <p class="descripcion">El arroz con camaron tienes los siguientes ingredientes
                                     arroz, camaron
                                 </p>
                             </div>
-                            <div>
-                                <p>Encebollado</p>
-                                <p>$3.50</p>
-                                <p>El arroz con camaron tiene los siguientes ingredientes
+                            <div class="platillo">
+                                <p class="nombre">Encebollado</p>
+                                <p class="precio">$3.50</p>
+                                <p class="descripcion">El arroz con camaron tiene los siguientes ingredientes
                                     arroz, camaron
                                 </p>
                             </div>
-                            <div>
-                                <p>Encebollado Mixto</p>
-                                <p>$8.50</p>
-                                <p>El arroz con camaron tiene los siguientes ingredientes
+                            <div class="platillo">
+                                <p class="nombre">Encebollado Mixto</p>
+                                <p class="precio">$8.50</p>
+                                <p class="descripcion">El arroz con camaron tiene los siguientes ingredientes
                                     arroz, camaron
                                 </p>
                             </div>
@@ -101,32 +106,32 @@
                         
                         <!--./ Fin de la seccion comer-->
                         <article>
-                            <p>Bebidas</p>
-                            <div>
-                                <p>Jugos Naturales</p>
-                                <p>$4.00</p>
-                                <p>El arroz con camaron tiene los siguientes ingredientes
+                            <p class="categoria">Bebidas</p>
+                            <div class="platillo">
+                                <p class="nombre">Jugos Naturales</p>
+                                <p class="precio">$4.00</p>
+                                <p class="descripcion">El arroz con camaron tiene los siguientes ingredientes
                                     arroz, camaron
                                 </p>
                             </div>
-                            <div>
-                                <p>Colas Personales</p>
-                                <p>$1.00</p>
-                                <p>El arroz con camaron tiene los siguientes ingredientes
+                            <div class="platillo">
+                                <p class="nombre">Colas Personales</p>
+                                <p class="precio">$1.00</p>
+                                <p class="descripcion">El arroz con camaron tiene los siguientes ingredientes
                                     arroz, camaron
                                 </p>
                             </div>
-                            <div>
-                                <p>Pilsener</p>
-                                <p>$3.00</p>
-                                <p>El arroz con camaron tiene los siguientes ingredientes
+                            <div class="platillo">
+                                <p class="nombre">Pilsener</p>
+                                <p class="precio">$3.00</p>
+                                <p class="descripcion">El arroz con camaron tiene los siguientes ingredientes
                                     arroz, camaron
                                 </p>
                             </div>
-                            <div>
-                                <p>Limonadas</p>
-                                <p>$2.50</p>
-                                <p>El arroz con camaron tiene los siguientes ingredientes
+                            <div class="platillo">
+                                <p class="nombre">Limonadas</p>
+                                <p class="precio">$2.50</p>
+                                <p class="descripcion">El arroz con camaron tiene los siguientes ingredientes
                                     arroz, camaron
                                 </p>
                             </div>
@@ -137,65 +142,64 @@
         </section>
         <!--./Fin Menu-->
         <!--Inicio Galeria-->
-        <section>
-            <div>
+        <section class="galeria" id="galeria">
+            <div class="foto">
                 <img src="imagenes/1.jpg" alt="">
             </div>
-            <div>
+            <div class="foto">
                 <img src="imagenes/2.jpg" alt="">
             </div>
-            <div>
+            <div class="foto">
                 <img src="imagenes/3.jpg" alt="">
             </div>
-            <div>
+            <div class="foto">
                 <img src="imagenes/4.jpg" alt="">
             </div>
-            <div>
+            <div class="foto">
                 <img src="imagenes/5.jpg" alt="">
             </div>
-            <div>
+            <div class="foto">
                 <img src="imagenes/6.jpg" alt="">
             </div>
-            <div>
+            <div class="foto">
                 <img src="imagenes/7.jpg" alt="">
             </div>
-            <div>
+            <div class="foto">
                 <img src="imagenes/8.jpg" alt="">
             </div>
         </section>
 
         <!--Seccion ubicacion-->
-        <section id="ubicacion">
-            <div>
-                <h3>Ubicacion</h3>
+        <section class="ubicacion" id="ubicacion">
+            <div class="contenedor">
+                <h3 class="titulo">Ubicacion</h3>
 
-                <div>
-                    <p>E5D <br />S48-520</p><br>
-                    <p>(+593) 0992628980</p>
-                    <p> cafe@gmail.com</p>
+                <div class="direccion">
+                    <p class="calle">E5D <br />S48-520</p><br>
+                    <p class="telefono">(+593) 0992628980</p>
+                    <p class="correo"> cafe@gmail.com</p>
                 </div>
 
-                <div>
+                <div class="horarios">
                     <h4>Horarios</h4>
-                    <p>Lunes a Viernes <br> 7:00 - 21:00</p>
-                    <p>Sabados y Domingos <br> 11:00 - 23:00</p>
+                    <p class="entre-semana">Lunes a Viernes <br> 7:00 - 21:00</p>
+                    <p class="fin-semana">Sabados y Domingos <br> 11:00 - 23:00</p>
                 </div>
             </div>
         </section>
         <!--./Fin contactos-->
         <!--Inicio Mapa-->
-        <section>
+        <section class="mapa">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.805081885575!2d-78.49340531974043!3d-0.14759780000000094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59ab33ae952e7%3A0xa160086f3dac5640!2sCaf%C3%A9%20Rojo!5e0!3m2!1ses-419!2sec!4v1744039485309!5m2!1ses-419!2sec"
             width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
-            
         </section>
         <!--Fin seccion mapa-->
     </section>
     <!--Fin seccion main-->
     <footer>
-        <div>
-            <div>
+        <div class="contenedor">
+            <div class="copyright">
                 <p>&COPY; Todos los derechos reservados Davitron 2024</p>
             </div>
         </div>
